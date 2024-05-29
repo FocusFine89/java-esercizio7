@@ -35,4 +35,18 @@ public class Product {
     public double getPrice() {
         return price;
     }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    @Override
+    public String toString() {
+        return "Product{" +
+                "price=" + price +
+                ", category='" + category + '\'' +
+                ", name='" + name + '\'' +
+                ", id=" + id +
+                '}';
+    }
 }
